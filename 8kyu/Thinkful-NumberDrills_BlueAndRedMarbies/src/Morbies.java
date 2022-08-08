@@ -1,4 +1,4 @@
-public class Marbies {
+public class Morbies {
     public static void main(String[] args) {
         System.out.println(guessBlue(5, 5, 2, 3));
     }
