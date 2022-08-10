@@ -7,7 +7,7 @@ public class RawSumOddNumbers {
     }
 
     private static int rowSumOddNumbers(int n) {
-        if (n <= 0) throw new RuntimeException("Номер строки должн быть положительным целым числом!");
+        if (n <= 0) throw new RuntimeException("Номер строки должен быть положительным целым числом!");
         int numbersBelow = (n - 1) * n / 2;
          /* арифметическая прогрессия подсчитывает общее количество предыдущих
          элементов строки n по формуле a = a(a+1)/2 ( сколько надо их пропустить в стриме */
